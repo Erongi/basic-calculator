@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.App {
+  width: 100vW;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 15px;
+  background-color: rgb(143, 142, 142);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 5px;
+  gap: 10px;
+}
+
+.container__keypads {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+  grid-template-rows: 70px 70px 70px 70px 70px;
+  gap: 5px;
+}

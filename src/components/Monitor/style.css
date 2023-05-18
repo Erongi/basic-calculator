@@ -1,0 +1,18 @@
+.monitor {
+    background-color: #FFFFFF;
+    height: 3rem;
+    width: 295px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+}
+
+.monitor__screen {
+    text-align: end;
+    width: 100%;
+    font-size: 2rem;
+    margin-right: 2px;
+    border: none;
+    background-color: #FFFFFF;
+}
